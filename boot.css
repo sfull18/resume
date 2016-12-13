@@ -1,0 +1,6 @@
+.row div { height: 50px; }
+
+.row div { background-color: black; }
+.row:nth-child(2) div { background-color: blue; }
+.row:nth-child(2) div:first-child { background-color: orange; }
+.row:nth-child(2) div:last-child { background-color: violet; }
