@@ -219,16 +219,16 @@ a {
     }
 }
 
-<style>
-/* Tooltip container */
+
+/* Tooltip container 
 .tooltip {
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
-}
+}*/
 
 /* Tooltip text */
-.tooltip .tooltiptext {
+.list-inline-item .tooltiptext {
     visibility: hidden;
     width: 120px;
     background-color: black;
@@ -243,6 +243,6 @@ a {
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
-.tooltip:hover .tooltiptext {
+.list-inline-item:hover .tooltiptext {
     visibility: visible;
 }
